@@ -1,0 +1,87 @@
+.summary{
+    width: 740px;
+    height: 340px;
+    background-color: rgba(241, 241, 241, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px (0,0,0,0.1);
+    margin-left: 25px;
+   
+    
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: white;
+}
+
+
+.buttons{
+    border: solid rgba(234, 232, 232, 0.3);
+    border-radius: 5px;
+    height: 21px;
+}
+
+.buttons button{
+    background-color: rgba(234, 232, 232, 0.3);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    font-family: 'Roboto';
+}
+
+
+.buttons button:hover{
+    background-color: rgba(22, 20, 20, 0.3);
+}
+
+.now p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+.now span{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+.now{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.rain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rain p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+.rain span{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}

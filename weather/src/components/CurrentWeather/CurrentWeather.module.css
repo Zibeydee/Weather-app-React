@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.currentweather{
+    width: 230px;
+    height: 310px;
+    background-color: rgba(60, 59, 59, 0.2);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px (0,0,0,0.1);
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+.heading{
+    color: white;
+
+}
+
+.heading h2{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.heading span{
+    font-size: 14px;
+    font-family: "Roboto";
+}
+
+
+.temperature{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.temperature img{
+    width: 100px;
+}
+
+.temperature span{
+    font-size: 47px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: white;
+}
+
+.temperature p{
+    color: white;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+
+.waves{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+.waves img{
+    width: 30px;
+    color: white;
+}
+
+
+.waves span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+    
+}
+
+
+.humidity{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px; 
+}
+
+.humidity img{
+    width: 30px;
+}
+
+.humidity span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+
+.wind{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px; 
+}
+
+.wind img{
+    width: 30px;
+}
+
+.wind span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+
+.sun{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px; 
+}
+
+.sun img{
+    width: 30px;
+}
+
+.sun span{
+    color: white;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+
+.details{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.temperature .degree {
+    font-size: 0.9em; 
+    vertical-align: top;
+    margin-left: 2px;
+    position: relative;
+    top: -0.5em;
+    
+}

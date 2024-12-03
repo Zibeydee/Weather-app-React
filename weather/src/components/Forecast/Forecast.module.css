@@ -1,0 +1,97 @@
+.forecast{
+    width: 290px;
+    height: 400px;
+    background-color: rgba(241, 241, 241, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px (0,0,0,0.1);
+    box-sizing: border-box; 
+    overflow-x: auto;
+}
+
+
+.forecast::-webkit-scrollbar {
+    width: 8px; 
+}
+
+.forecast::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h2{
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: white;
+}
+
+
+.heading p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    color: white;
+}
+
+.city{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.city img{
+    width: 30px;
+    height: 30px;
+}
+
+.city .imagediv h4 {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.city p{
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+
+.imagediv{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.buttons{
+    border: solid rgba(234, 232, 232, 0.3);
+    border-radius: 5px;
+    height: 21px;
+}
+
+.buttons button{
+    background-color: rgba(234, 232, 232, 0.3);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    padding: 3px;
+    font-size: 13px;
+    font-weight: 300;
+    font-family: 'Roboto';
+}
+
+.buttons button:hover{
+    background-color: rgba(22, 20, 20, 0.3);
+}
+
+.buttons button.selected {
+    background-color: rgba(22, 20, 20, 0.3); /* Hover rengiyle aynı */
+}
